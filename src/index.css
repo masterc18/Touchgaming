@@ -48,7 +48,7 @@ h2 {
   font-weight: 900;
   color: white;
 }
-
+/*Comienza el diseño de las cards de la seccion recomendados*/
 .recomen {
   background-color: #6e117e;
   height: 1325px;
@@ -195,3 +195,4 @@ h2 {
 .zelda button{
   margin-top: 15px;
 }
+/*Termina el diseño de las cards de la seccion recomendados*/
