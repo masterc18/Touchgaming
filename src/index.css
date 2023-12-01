@@ -74,8 +74,7 @@ h2 {
 
 .card-image {
   background-color: #6e117e;
-  border-radius: 1px;
-  height: 290px;
+  height: 295px;
 }
 
 .card-image img {
@@ -85,6 +84,7 @@ h2 {
 }
 
 .card-content {
+  text-align: center;
   border-radius: 0px;
   width: 100%;
   height: 300px;
@@ -111,6 +111,10 @@ h2 {
 
 .field .card-content {
   background-color: rgb(224, 98, 54);
+}
+
+.field p{
+  font-size: 20px;
 }
 
 .field .more {
@@ -142,6 +146,10 @@ h2 {
 
 .zelda .card-content {
   background-color: aqua;
+}
+
+.zelda p{
+  font-size: 15px;
 }
 
 .zelda .more {
@@ -177,4 +185,13 @@ h2 {
 
 .buttons {
   margin-top: 50px;
+  transform: translate(-100px);
+}
+
+.field button{
+  margin-top: 5px;
+}
+
+.zelda button{
+  margin-top: 15px;
 }
