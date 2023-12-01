@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+header {
+  background-color: #6e117e;
+  display: flex;
+  position: static;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  margin-left: 10px;
+  color: white;
+}
+
+nav {
+  margin-right: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  display: flex;
+  margin-right: 5px;
+  margin-left: 35px;
+}
+
+nav a {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+.recomen {
+  background-color: #6e117e;
+  height: 1325px;
+}
+
+.recomen h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 450px;
+  height: 799px;
+}
+
+.card-image {
+  background-color: #6e117e;
+  border-radius: 1px;
+  height: 290px;
+}
+
+.card-image img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-content {
+  border-radius: 0px;
+  width: 100%;
+  height: 300px;
+}
+
+.card-content button {
+  height: 30px;
+  width: 115px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: blue;
+  /*Posicion del boton en el centro del card*/
+  margin-top: 20px;
+  transform: translate(180px);
+}
+
+.field {
+  transform: translateY(45px);
+}
+
+.field .card-content {
+  background-color: rgb(224, 98, 54);
+}
+
+.field .more {
+  transform: translate(7px);
+  color: #000;
+  background-color: #fff;
+}
+
+.field .more:hover {
+  background-color: orange;
+  box-shadow: inset;
+}
+
+.GOW .more {
+  transform: translate(7px);
+}
+
+.GOW {
+  transform: translateY(45px);
+}
+
+.GOW .card-content {
+  background-color: skyblue;
+}
+
+.zelda {
+  transform: translateY(45px);
+}
+
+.zelda .card-content {
+  background-color: aqua;
+}
+
+.zelda .more {
+  transform: translate(7px);
+}
+
+.zelda .buttons {
+  margin-top: 20px;
+}
+
+.spider {
+  transform: translateX(-535px);
+  margin-top: 40px;
+}
+
+.spider .card-content {
+  height: 300px;
+  background-color: #4b0404;
+}
+
+.spider h2 {
+  color: #fff;
+}
+
+.spider p {
+  margin-left: 6px;
+  color: #fff;
+}
+
+.spider span {
+  color: white;
+}
+
+.buttons {
+  margin-top: 50px;
+}
