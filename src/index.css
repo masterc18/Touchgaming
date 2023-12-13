@@ -77,7 +77,7 @@ h2 {
 }
 
 /*Estilos del boton y animacion*/
-.contentGow button{
+.contentGow button {
   height: 40px;
   width: 100px;
   margin: 20px;
@@ -86,15 +86,56 @@ h2 {
   background: linear-gradient(45deg, skyblue 50%, transparent 50%);
   background-position: 100%;
   background-size: 250%;
-  transition: 0.5s background;
+  transition: 0.7s background;
 }
 
 .contentGow button:hover {
   background-position: 0;
 }
 
+.contentZelda button {
+  height: 40px;
+  width: 100px;
+  margin: 20px;
+  border: 3px solid lightgreen;
+  border-radius: 18px;
+  background: linear-gradient(45deg, lightgreen 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 250%;
+  transition: 0.7s background;
+}
 
+.contentZelda button:hover {
+  background-position: 0;
+}
 
+.contentSpider button {
+  height: 40px;
+  width: 100px;
+  margin: 20px;
+  border: 3px solid red;
+  border-radius: 18px;
+  background: linear-gradient(45deg, red 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 250%;
+  transition: 0.7s background;
+}
+
+.contentSpider button:hover {
+  background-position: 0;
+}
+
+.contentSpider #buy {
+  background: linear-gradient(45deg, black 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 250%;
+  transition: 0.7s background;
+}
+
+.contentSpider #buy:hover {
+  background-position: 0;
+  color: #fff;
+}
 
 .icons {
   display: flex;
@@ -103,7 +144,6 @@ h2 {
 }
 
 i {
-
   color: #6e117e;
   margin: 20px;
 }
