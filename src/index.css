@@ -53,12 +53,6 @@ h2 {
   background-color: #6e117e;
 }
 
-.icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .cards {
   display: flex;
   height: auto;
@@ -82,98 +76,34 @@ h2 {
   width: 100%;
 }
 
-/*Estilos del boton*/
-.contentGow button {
-  background-color: transparent;
-  border: none;
-  height: 25px;
-  width: auto;
-  margin: 10px;
-}
-
-/*Animacion del boton*/
-.contentGow a {
-  height: 150px;
+/*Estilos del boton y animacion*/
+.contentGow button{
+  height: 40px;
   width: 100px;
-  margin: 10px;
+  margin: 20px;
   border: 3px solid skyblue;
-  border-radius: 10px;
-  text-decoration: none;
-  color: black;
+  border-radius: 18px;
   background: linear-gradient(45deg, skyblue 50%, transparent 50%);
   background-position: 100%;
   background-size: 250%;
   transition: 0.5s background;
 }
 
-.contentGow a:hover {
+.contentGow button:hover {
   background-position: 0;
 }
 
-.contentZelda button {
-  background-color: transparent;
-  border: none;
-  height: 25px;
-  width: auto;
-  margin: 10px;
+
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contentZelda h2{
-  font-size: 27px;
-}
+i {
 
-.contentZelda a {
-  height: 150px;
-  width: 100px;
-  margin: 10px;
-  border: 3px solid lightgreen;
-  border-radius: 10px;
-  text-decoration: none;
-  color: black;
-  background: linear-gradient(45deg, lightgreen 50%, transparent 50%);
-  background-position: 100%;
-  background-size: 250%;
-  transition: 0.5s background;
-}
-
-.contentZelda a:hover {
-  background-position: 0;
-}
-
-.contentSpider button {
-  background-color: transparent;
-  border: none;
-  height: 25px;
-  width: auto;
-  margin: 10px;
-}
-
-.contentSpider a {
-  height: 150px;
-  width: 100px;
-  margin: 10px;
-  border: 3px solid red;
-  border-radius: 10px;
-  text-decoration: none;
-  color: black;
-  background: linear-gradient(45deg, red 50%, transparent 50%);
-  background-position: 100%;
-  background-size: 250%;
-  transition: 0.5s background;
-}
-
-.contentSpider a:hover {
-  background-position: 0;
-}
-
-.contentSpider .buy {
-  background: linear-gradient(45deg, black 50%, transparent 50%);
-  background-position: 100%;
-  background-size: 250%;
-  transition: 0.5s background;
-}
-
-.contentSpider .buy:hover {
-  background-position: 0;
-  color: #fff;
+  color: #6e117e;
+  margin: 20px;
 }
