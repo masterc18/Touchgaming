@@ -53,32 +53,125 @@ h2 {
   background-color: #6e117e;
 }
 
-.icons{
+.icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.cards{
+.cards {
   display: flex;
   height: auto;
-  border-radius: 10px ;
+  border-radius: 10px;
   overflow-x: auto;
   scrollbar-width: none;
   background-color: #fff;
 }
 
-.card{
+.card {
+  height: 100px;
   position: relative;
-  flex: 0 0 309px;
-  height: 250px;
+  flex: 0 0 350px;
   overflow: hidden;
   margin-left: 2.5rem;
-  border-radius: 18px;
-  box-shadow: 2px 4px 12px rgba(0,0,0,0.8);
+  border-radius: 10px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.8);
 }
 
-.card img{
+.card img {
   width: 100%;
 }
 
+.contentGow button {
+  background-color: transparent;
+  border: none;
+  height: 25px;
+  width: auto;
+  margin: 10px;
+}
+
+.contentGow a {
+  height: 150px;
+  width: 100px;
+  margin: 10px;
+  border: 3px solid skyblue;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(45deg, skyblue 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 250%;
+  transition: 0.5s background;
+}
+
+.contentGow a:hover {
+  background-position: 0;
+}
+
+.contentZelda button {
+  background-color: transparent;
+  border: none;
+  height: 25px;
+  width: auto;
+  margin: 10px;
+}
+
+.contentZelda h2{
+  font-size: 27px;
+}
+
+.contentZelda a {
+  height: 150px;
+  width: 100px;
+  margin: 10px;
+  border: 3px solid lightgreen;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(45deg, lightgreen 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 250%;
+  transition: 0.5s background;
+}
+
+.contentZelda a:hover {
+  background-position: 0;
+}
+
+.contentSpider button {
+  background-color: transparent;
+  border: none;
+  height: 25px;
+  width: auto;
+  margin: 10px;
+}
+
+.contentSpider a {
+  height: 150px;
+  width: 100px;
+  margin: 10px;
+  border: 3px solid red;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(45deg, red 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 250%;
+  transition: 0.5s background;
+}
+
+.contentSpider a:hover {
+  background-position: 0;
+}
+
+.contentSpider .buy {
+  background: linear-gradient(45deg, black 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 250%;
+  transition: 0.5s background;
+}
+
+.contentSpider .buy:hover {
+  background-position: 0;
+  color: #fff;
+}
