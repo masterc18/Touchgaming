@@ -124,7 +124,7 @@ h2 {
 .contentSpider button:hover {
   background-position: 0;
 }
-
+/*Estilos del boton buy (Exclusivo de Spider-man)*/
 .contentSpider #buy {
   background: linear-gradient(45deg, black 50%, transparent 50%);
   background-position: 100%;
