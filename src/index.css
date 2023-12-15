@@ -54,13 +54,14 @@ h2 {
   background:linear-gradient(50deg,black 50%,#6e117e 50% ) ;
 }
 
-.recomen #recomend{
+.recomen .category{
   padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
+  font-size: 40px;
   background-color: #6e117e;
 }
 
@@ -71,7 +72,7 @@ h2 {
   scrollbar-width: none;
   background-color: #6e117e;
   padding: 5px;
-  background:linear-gradient(50deg,black 51.2%,#6e117e 50% ) ;
+  background:linear-gradient(50deg,black 51.4%,#6e117e 50% ) ;
 }
 
 .card {
@@ -179,4 +180,30 @@ h2 {
 i {
   color: #6e117e;
   margin: 20px;
+}
+
+.cards-offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+.card-offer {
+  height: auto;
+  position: relative;
+  flex: 0 0 350px;
+  overflow: hidden;
+  margin-left: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.card-offer img{
+  width: 100%;
+}
+
+.contentMandoPs del {
+  color: red;
 }
