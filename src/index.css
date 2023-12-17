@@ -281,3 +281,62 @@ del {
 .contentArsus button:hover {
   background-position: 0;
 }
+
+.soon {
+  background-color: #6e117e;
+}
+
+.soon #soon {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+  font-size: 40px;
+}
+
+.cards-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #000;
+  height: auto;
+  padding: 10px;
+}
+
+.card-soon {
+  height: auto;
+  position: relative;
+  flex: 0 0 300px;
+  flex-direction: row;
+  overflow: hidden;
+  margin-left: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 2px 4px 12px rgba(92, 20, 86, 0.88);
+  background-color: #fff;
+}
+
+.card-soon img {
+  width: 100%;
+}
+
+.content-soon {
+  background-color: #000;
+}
+
+.card-soon:hover{
+  transform: translateY(-5px);
+  color: #6e117e;
+}
+
+.content-soon h2{
+  background-color: #000;
+}
+
+footer{
+  padding: 10px;
+  background-color: #000;
+}
