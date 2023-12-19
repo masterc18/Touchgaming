@@ -316,7 +316,7 @@ del {
   background: linear-gradient(45deg, #6e117e 50%, transparent 50%);
   background-position: 100%;
   background-size: 250%;
-  transition: 0.5s background;
+  transition: 0.6s background;
 }
 
 .card-soon img {
