@@ -178,11 +178,6 @@ h2 {
   align-items: center;
 }
 
-i {
-  color: #6e117e;
-  margin: 20px;
-}
-
 /* @media screen and (max-width:720px){
   .card{}
 } */
@@ -217,7 +212,7 @@ i {
   overflow: hidden;
   margin-left: 2.5rem;
   border-radius: 10px;
-  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.8);
+  box-shadow: 2px 4px 12px rgba(92, 20, 86, 0.88);
   background-color: #fff;
 }
 
@@ -227,6 +222,7 @@ i {
 
 .card-offer:hover {
   transform: translateY(-5px);
+  background-position: 0;
 }
 
 .link {
@@ -317,6 +313,10 @@ del {
   border-radius: 10px;
   box-shadow: 2px 4px 12px rgba(92, 20, 86, 0.88);
   background-color: #fff;
+  background: linear-gradient(45deg, #6e117e 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 250%;
+  transition: 0.7s background;
 }
 
 .card-soon img {
@@ -324,19 +324,25 @@ del {
 }
 
 .content-soon {
-  background-color: #000;
+  background-color: #fff;
 }
 
-.card-soon:hover{
+.card-soon:hover {
+  background-position: 0;
   transform: translateY(-5px);
   color: #6e117e;
 }
 
-.content-soon h2{
+.content-soon h2 {
   background-color: #000;
 }
 
-footer{
+footer {
   padding: 10px;
   background-color: #000;
+}
+
+i {
+  color: #6e117e;
+  margin: 20px;
 }
