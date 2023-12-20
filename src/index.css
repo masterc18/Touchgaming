@@ -8,41 +8,45 @@ body {
   background-color: #6e117e;
 }
 
-header {
+.menu-toggle {
+  display: block;
+  cursor: pointer;
+  padding: 20px;
   background-color: #000;
-  display: flex;
-  position: static;
-  justify-content: space-between;
-  align-items: center;
 }
 
-header h1 {
-  font-family: Montserrat, sans-serif;
-  font-weight: 900;
-  margin-left: 10px;
-  color: #fff;
+.menu-toggle span {
+  display: block;
+  height: 3px;
+  width: 30px;
+  background-color: #333;
+  margin: 5px 0;
 }
 
-nav {
-  margin-right: 20px;
+.nav-menu {
+  display: none;
+  background-color: #333;
 }
 
-nav ul {
-  display: flex;
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-nav li {
-  display: flex;
-  margin-right: 5px;
-  margin-left: 35px;
+.nav-menu a:hover {
+  color: #6e117e;
 }
 
-nav a {
-  font-family: Montserrat, sans-serif;
-  font-weight: 900;
-  color: white;
+.nav-menu li {
+  padding: 15px;
+}
+
+.nav-menu a {
   text-decoration: none;
+  color: white;
 }
+
 
 h2 {
   font-family: Montserrat, sans-serif;
@@ -178,9 +182,6 @@ h2 {
   align-items: center;
 }
 
-/* @media screen and (max-width:720px){
-  .card{}
-} */
 .offer {
   background-color: #6e117e;
 }
@@ -346,3 +347,167 @@ i {
   color: #6e117e;
   margin: 20px;
 }
+
+/*Diseño responsive
+/* Estilos generales 
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Encabezado y navegación 
+
+header {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Sección Recomendados 
+
+.recomen {
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: calc(50% - 20px);
+  margin: 20px 0;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Sección Descuentos 
+
+.offer {
+  padding: 20px;
+}
+
+.cards-offer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-offer {
+  width: calc(50% - 20px);
+  margin: 20px 0;
+}
+
+.card-offer img {
+  width: 100%;
+  height: auto;
+}
+
+/* Sección Próximamente 
+
+.soon {
+  padding: 20px;
+}
+
+.cards-soon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-soon {
+  width: calc(50% - 20px);
+  margin: 20px 0;
+}
+
+.card-soon img {
+  width: 100%;
+  height: auto;
+}
+
+/* Pie de página 
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons a {
+  color: white;
+  margin: 0 10px;
+}
+
+/* Media Queries para hacer el diseño responsive 
+
+@media screen and (max-width: 1200px) {
+  .card,
+  .card-offer,
+  .card-soon {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card,
+  .card-offer,
+  .card-soon {
+    width: 100%;
+  }
+}
+/* Diseño rsponsive del menu 
+/* Media Query para mostrar el menú en pantallas más pequeñas 
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 60px; /* Ajusta según tus necesidades 
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+
+  .nav-menu.show {
+    display: block;
+  }
+}
+*/
