@@ -37,18 +37,20 @@
     <title>TouchGaming</title>
   </head>
   <body>
-    <header>
-      <h1>TouchGaming</h1>
-      <nav class="nav-bar">
-        <ul>
-          <li><a href="">Inicio</a></li>
-          <li><a href="">Juegos</a></li>
-          <li><a href="">Consolas</a></li>
-          <li><a href="">Accesorios</a></li>
-          <li><a href="">Extras</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="menu-toggle" id="mobile-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="nav-menu" id="nav-menu">
+      <ul>
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Juegos</a></li>
+        <li><a href="">Consolas</a></li>
+        <li><a href="">Accesorios</a></li>
+        <li><a href="">Extras</a></li>
+      </ul>
+    </nav>
     <!--Aqui va el carrusel-->
     <!--<div class="carousel"></div>-->
     <section class="recomen">
@@ -120,12 +122,12 @@
       </div>
     </section>
     <section class="offer">
-      <div class="link">
+      <!-- <div class="link">
         <img src="../pictures/characters/link.png" alt="" />
       </div>
       <div class="zelda">
         <img src="../pictures/characters/zelda.png" alt="" />
-      </div>
+      </div> -->
       <h2 class="sale">Descuentos</h2>
       <div class="cards-offer">
         <article class="card-offer">
@@ -225,5 +227,6 @@
         </div>
       </div>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
