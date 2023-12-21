@@ -4,13 +4,13 @@
   width: auto;
 }
 
-@keyframes show{
-  from{
+@keyframes show {
+  from {
     opacity: 0;
-    scale: 25% ;
+    scale: 25%;
   }
 
-  to{
+  to {
     opacity: 1;
     scale: 100%;
   }
@@ -33,9 +33,18 @@ body {
   width: 30px;
   background-color: #fff;
   margin: 5px 0;
-  
 }
 
+.menu-toggle i {
+  font-size: 24px;
+  position: absolute;
+  top: 1px;
+  right: 60px;
+}
+.menu-toggle #user{
+  position: absolute;
+  right: 2px;
+}
 .nav-menu {
   display: none;
   background-color: #333;
@@ -59,7 +68,6 @@ body {
   text-decoration: none;
   color: white;
 }
-
 
 h2 {
   font-family: Montserrat, sans-serif;
@@ -123,7 +131,6 @@ h2 {
   background-size: 250%;
   transition: 0.7s background;
 }
-
 
 .contentGow button:hover {
   background-position: 0;
@@ -434,7 +441,7 @@ nav a {
   width: calc(50% - 20px);
   margin: 20px 0;
   /*Animacion con el scroll*/
-  view-timeline-name: --card ;
+  view-timeline-name: --card;
   view-timeline-axis: block;
 
   animation-timeline: --card;
@@ -459,13 +466,12 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
 }
 
 .card-soon {
   width: calc(50% - 20px);
   margin: 20px 0;
-  view-timeline-name: --card ;
+  view-timeline-name: --card;
   view-timeline-axis: block;
 
   animation-timeline: --card;
@@ -480,7 +486,7 @@ nav a {
   height: auto;
 }
 
-/* Pie de página */ 
+/* Pie de página */
 
 footer {
   background-color: #333;
@@ -488,7 +494,7 @@ footer {
   text-align: center;
 }
 
-i{
+i {
   font-size: 40px;
   display: flex;
   align-items: center;
@@ -496,7 +502,6 @@ i{
   margin: 30px;
   color: purple;
 }
-
 
 /* Media Queries para hacer el diseño responsive */
 
@@ -506,7 +511,7 @@ i{
   .card-soon {
     width: calc(50% - 20px);
   }
-  i{
+  i {
     font-size: 27px;
   }
 }
@@ -518,15 +523,26 @@ i{
     width: 100%;
   }
 
-  i{
+  i {
     font-size: 20px;
   }
 }
 /* Diseño rsponsive del menu */
-/* Media Query para mostrar el menú en pantallas más pequeñas */ 
+/* Media Query para mostrar el menú en pantallas más pequeñas */
 @media screen and (max-width: 768px) {
   .menu-toggle {
     display: block;
+  }
+  .menu-toggle i {
+    font-size: 20px;
+    position: absolute;
+    top: 1px;
+    right: 2px;
+  }
+
+  .menu-toggle #cart{
+    position: absolute;
+    right: 50px;
   }
 
   .nav-menu {
