@@ -4,6 +4,18 @@
   width: auto;
 }
 
+@keyframes show{
+  from{
+    opacity: 0;
+    scale: 25% ;
+  }
+
+  to{
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
 body {
   background-color: #6e117e;
 }
@@ -19,8 +31,9 @@ body {
   display: block;
   height: 3px;
   width: 30px;
-  background-color: #333;
+  background-color: #fff;
   margin: 5px 0;
+  
 }
 
 .nav-menu {
@@ -88,7 +101,6 @@ h2 {
   overflow: hidden;
   margin-left: 2.5rem;
   border-radius: 10px;
-  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.8);
 }
 
 .card img {
@@ -111,6 +123,7 @@ h2 {
   background-size: 250%;
   transition: 0.7s background;
 }
+
 
 .contentGow button:hover {
   background-position: 0;
@@ -348,8 +361,8 @@ i {
   margin: 20px;
 }
 
-/*Diseño responsive
-/* Estilos generales 
+/*Diseño responsive*/
+/* Estilos generales */
 
 body {
   font-family: "Arial", sans-serif;
@@ -358,7 +371,7 @@ body {
   box-sizing: border-box;
 }
 
-/* Encabezado y navegación 
+/* Encabezado y navegación */
 
 header {
   text-align: center;
@@ -388,7 +401,7 @@ nav a {
   color: white;
 }
 
-/* Sección Recomendados 
+/* Sección Recomendados */
 
 .recomen {
   padding: 20px;
@@ -410,7 +423,7 @@ nav a {
   height: auto;
 }
 
-/* Sección Descuentos 
+/* Sección Descuentos */
 
 .offer {
   padding: 20px;
@@ -425,6 +438,15 @@ nav a {
 .card-offer {
   width: calc(50% - 20px);
   margin: 20px 0;
+  /*Animacion con el scroll*/
+  view-timeline-name: --card ;
+  view-timeline-axis: block;
+
+  animation-timeline: --card;
+  animation-name: show;
+
+  animation-range: entry 20% cover 30%;
+  animation-fill-mode: both;
 }
 
 .card-offer img {
@@ -432,7 +454,7 @@ nav a {
   height: auto;
 }
 
-/* Sección Próximamente 
+/* Sección Próximamente */
 
 .soon {
   padding: 20px;
@@ -442,11 +464,20 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  
 }
 
 .card-soon {
   width: calc(50% - 20px);
   margin: 20px 0;
+  view-timeline-name: --card ;
+  view-timeline-axis: block;
+
+  animation-timeline: --card;
+  animation-name: show;
+
+  animation-range: entry 20% cover 30%;
+  animation-fill-mode: both;
 }
 
 .card-soon img {
@@ -454,7 +485,7 @@ nav a {
   height: auto;
 }
 
-/* Pie de página 
+/* Pie de página */ 
 
 footer {
   background-color: #333;
@@ -473,7 +504,7 @@ footer {
   margin: 0 10px;
 }
 
-/* Media Queries para hacer el diseño responsive 
+/* Media Queries para hacer el diseño responsive */
 
 @media screen and (max-width: 1200px) {
   .card,
@@ -490,8 +521,8 @@ footer {
     width: 100%;
   }
 }
-/* Diseño rsponsive del menu 
-/* Media Query para mostrar el menú en pantallas más pequeñas 
+/* Diseño rsponsive del menu */
+/* Media Query para mostrar el menú en pantallas más pequeñas */ 
 @media screen and (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -500,7 +531,7 @@ footer {
   .nav-menu {
     display: none;
     position: absolute;
-    top: 60px; /* Ajusta según tus necesidades 
+    top: 60px; /* Ajusta según tus necesidades */
     left: 0;
     width: 100%;
     background-color: #333;
@@ -510,4 +541,3 @@ footer {
     display: block;
   }
 }
-*/
