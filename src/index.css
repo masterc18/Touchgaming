@@ -356,11 +356,6 @@ footer {
   background-color: #000;
 }
 
-i {
-  color: #6e117e;
-  margin: 20px;
-}
-
 /*Diseño responsive*/
 /* Estilos generales */
 
@@ -491,18 +486,17 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 10px;
 }
 
-.icons {
+i{
+  font-size: 40px;
   display: flex;
+  align-items: center;
   justify-content: center;
+  margin: 30px;
+  color: purple;
 }
 
-.icons a {
-  color: white;
-  margin: 0 10px;
-}
 
 /* Media Queries para hacer el diseño responsive */
 
@@ -512,6 +506,9 @@ footer {
   .card-soon {
     width: calc(50% - 20px);
   }
+  i{
+    font-size: 27px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -519,6 +516,10 @@ footer {
   .card-offer,
   .card-soon {
     width: 100%;
+  }
+
+  i{
+    font-size: 20px;
   }
 }
 /* Diseño rsponsive del menu */
