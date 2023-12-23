@@ -523,21 +523,23 @@ i {
   }
 
   i {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
-@media screen and (min-width:388px) {
+@media screen and (max-width:388px) {
   .card,
   .card-offer,
   .card-soon{
     width: 100%;
+  
   }
 
   i{
     font-size: 20px;
   }
 }
+
 /* Diseño rsponsive del menu */
 /* Media Query para mostrar el menú en pantallas más pequeñas */
 @media screen and (max-width: 768px) {
